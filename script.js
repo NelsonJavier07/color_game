@@ -85,7 +85,6 @@ function randomColor() {
     return colorAleatorio;
 }
 function generateRandomColors(num) {
-    console.log('generateRandomColors num: ', num);
     let colores = [];
     /*
     if (num === 6) {
