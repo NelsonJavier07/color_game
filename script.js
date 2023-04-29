@@ -201,6 +201,7 @@ buttonReset.addEventListener("click", function reset() {
 })*/
 
 botonHard.addEventListener("click", function () {
+    console.log('boton hard');
     botonEasy.classList.remove("selected");
     botonHard.classList.add("selected");
     h1.style.backgroundColor = bodyColor;
